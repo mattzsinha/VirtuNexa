@@ -34,7 +34,7 @@ section {
 /* Hero Section Background */
 #home {
     height: 78vh;
-    background: url('hotel-hero.jpg') no-repeat center center/cover;
+    background: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/12/a7/6e/hotel-facade.jpg?w=1200&h=-1&s=1') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,13 +42,13 @@ section {
 
 /* About Section Background */
 #about {
-    background: url('hotel-about.jpg') no-repeat center center/cover;
+    background: url('https://www.ohotelsindia.com/pune/images/13c6386862540c41822c39464b130b65.jpg') no-repeat center center/cover;
     min-height: 79vh;
 }
 
 /* Contact Section Background */
 #contact {
-    background: url('hotel-contact.jpg') no-repeat center center/cover;
+    background: url('https://images.pexels.com/photos/14036250/pexels-photo-14036250.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover;
     min-height: 80vh;
 }
 
