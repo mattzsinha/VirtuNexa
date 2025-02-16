@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Section Styling with Backgrounds */
+section {
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Hero Section Background */
+#home {
+    height: 78vh;
+    background: url('hotel-hero.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* About Section Background */
+#about {
+    background: url('hotel-about.jpg') no-repeat center center/cover;
+    min-height: 79vh;
+}
+
+/* Contact Section Background */
+#contact {
+    background: url('hotel-contact.jpg') no-repeat center center/cover;
+    min-height: 80vh;
+}
+
+/* Dark Overlay for Readability */
+section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(137, 135, 140, 0.234); /* Dark overlay */
+    z-index: 1;
+}
+
+/* Ensuring Content Stays Above Overlay */
+section > * {
+    position: relative;
+    z-index: 2;
+}
